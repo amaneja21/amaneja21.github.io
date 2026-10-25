@@ -37,7 +37,8 @@ sections:
         .hl-card img{width:100%;aspect-ratio:16/10;object-fit:cover;margin:0!important;border-radius:0!important}
         .hl-patent{aspect-ratio:16/10;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(79,70,229,.08);font-family:inherit}
         .hl-patent b{font-size:1.6rem;letter-spacing:.02em}
-        .hl-body{padding:1rem 1.1rem 1.2rem}
+        .hl-body{display:block;padding:1rem 1.1rem 1.2rem}
+        .hl-video{width:100%;aspect-ratio:16/10;border:0;display:block;background:#000}
         .hl-tag{font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;opacity:.7;margin:0 0 .35rem}
         .hl-title{font-size:1.05rem;font-weight:600;line-height:1.35;margin:0 0 .4rem}
         .hl-meta{font-size:.875rem;opacity:.75;margin:0}
@@ -55,7 +56,7 @@ sections:
         <p>Amit Aneja is Senior Director of Product Management at Zscaler, where he leads the Zero Trust Branch portfolio. A trusted technology executive with over two decades of experience in cloud infrastructure, hybrid cloud, and networking, Amit has a proven record of building and scaling large-scale platforms and $100M+ ARR products. At Microsoft, he led product strategy, OKRs, and multi-year roadmaps for Azure VMware Solution and Nutanix Cloud Clusters on Azure. His earlier career includes senior product roles at VMware (NSX, VeloCloud) and Cisco, giving him deep expertise across the enterprise networking and security stack. He holds a CCIE (Emeritus) in Routing and Switching and Service Provider.</p>
         </div>
         <div class="hero-int">
-        <h3>Interests</h3>
+        <h3>Interests and Research</h3>
         <ul><li>Zero Trust</li><li>SD-WAN</li><li>Microsegmentation</li><li>Enterprise and Datacenter Networking</li><li>OT and ICS Security</li><li>IaaS</li></ul>
         </div>
         </div>
@@ -73,17 +74,21 @@ sections:
         <div class="hl-patent"><span class="hl-tag">US Patent</span><b>11,258,729</b><span class="hl-meta">Issued Feb 22, 2022</span></div>
         <div class="hl-body"><p class="hl-tag">Patent</p><p class="hl-title">Deploying a Software Defined Networking (SDN) Solution on a Host Using a Single Active Uplink</p><p class="hl-meta">United States Patent and Trademark Office</p></div>
         </a>
+        <a class="hl-card" href="/events/2023-vmware-explore-avs-migrate-modernize/">
+        <div class="hl-patent"><span class="hl-tag">VMware Explore</span><b>2023</b><span class="hl-meta">Las Vegas · CEIB3038LVS</span></div>
+        <div class="hl-body"><p class="hl-tag">Talk</p><p class="hl-title">Migrate and Modernize with Cloud Solutions from Azure VMware Solution</p><p class="hl-meta">VMware Explore 2023 · Las Vegas</p></div>
+        </a>
+        <div class="hl-card">
+        <iframe class="hl-video" src="https://www.youtube-nocookie.com/embed/txDMh0TZibQ?start=7" title="NSX-T Design for Small to Mid-Sized Data Centers, VMworld Europe 2019" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a class="hl-body" href="/events/2019-vmworld-europe-nsx-t-design-small-mid/" style="text-decoration:none;color:inherit"><p class="hl-tag">Talk · Video</p><p class="hl-title">NSX-T Design for Small to Mid-Sized Data Centers</p><p class="hl-meta">VMworld Europe 2019 · Barcelona</p></a>
+        </div>
+        <a class="hl-card" href="/publications/2019-nsx-t-reference-design-guide/">
+        <div class="hl-patent"><span class="hl-tag">VMware Technical White Paper</span><b>NSX-T 2.5</b><span class="hl-meta">Reference Design Guide</span></div>
+        <div class="hl-body"><p class="hl-tag">Publication</p><p class="hl-title">VMware NSX-T Reference Design Guide (NSX-T 2.5)</p><p class="hl-meta">VMware · Sep 2019</p></div>
+        </a>
         </div>
     design:
       columns: '1'
       spacing:
         padding: ['1.5rem', 0, '2rem', 0]
-  - block: markdown
-    content:
-      title: 'Research'
-      subtitle: ''
-      text: |-
-        My research looks at how zero trust and microsegmentation hold up in the environments where they are hardest to apply: manufacturing floors, OT and ICS networks, and AI agents talking to each other. Current work covers OT network anomaly detection, measuring segmentation maturity, and zero trust for agent-to-agent communication.
-    design:
-      columns: '1'
 ---
