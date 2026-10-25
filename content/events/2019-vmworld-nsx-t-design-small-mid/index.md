@@ -1,5 +1,5 @@
 ---
-title: "NSX-T Design for Small to Mid-Sized Data Centers"
+title: "NSX-T Design for Small to Mid-Sized Data Centers (VMworld US)"
 date: '2019-08-25T00:00:00Z'
 
 event_name: "VMworld 2019 US"
