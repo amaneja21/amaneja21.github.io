@@ -5,3 +5,6 @@ main:
   - name: Talks
     url: /#talks
     weight: 20
+  - name: Patents
+    url: /#patents
+    weight: 30

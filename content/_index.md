@@ -29,9 +29,20 @@ sections:
       filters:
         folders:
           - events
+      count: 0
       order: desc
     design:
       view: citation
+  - block: markdown
+    id: patents
+    content:
+      title: 'Patents'
+      subtitle: ''
+      text: |-
+        **2022** · [Deploying a Software Defined Networking (SDN) Solution on a Host Using a Single Active Uplink](https://patents.justia.com/patent/11258729)<br>
+        US Patent 11,258,729 · Issued February 22, 2022
+    design:
+      columns: '1'
   - block: markdown
     content:
       title: 'Research'
