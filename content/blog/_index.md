@@ -1,4 +1,12 @@
 ---
-title: Blog
-view: article-grid
+title: hidden
+build:
+  render: never
+  list: never
+  publishResources: false
+cascade:
+  - build:
+      render: never
+      list: never
+      publishResources: false
 ---
