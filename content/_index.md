@@ -22,14 +22,6 @@ sections:
       avatar:
         size: medium
         shape: circle
-  - block: markdown
-    content:
-      title: 'Research'
-      subtitle: ''
-      text: |-
-        My research looks at how zero trust and microsegmentation hold up in the environments where they are hardest to apply: manufacturing floors, OT and ICS networks, and AI agents talking to each other. Current work covers OT network anomaly detection, measuring segmentation maturity, and zero trust for agent-to-agent communication.
-    design:
-      columns: '1'
   - block: collection
     id: talks
     content:
@@ -40,4 +32,12 @@ sections:
       order: desc
     design:
       view: citation
+  - block: markdown
+    content:
+      title: 'Research'
+      subtitle: ''
+      text: |-
+        My research looks at how zero trust and microsegmentation hold up in the environments where they are hardest to apply: manufacturing floors, OT and ICS networks, and AI agents talking to each other. Current work covers OT network anomaly detection, measuring segmentation maturity, and zero trust for agent-to-agent communication.
+    design:
+      columns: '1'
 ---

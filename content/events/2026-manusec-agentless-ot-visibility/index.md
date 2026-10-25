@@ -31,6 +31,10 @@ tags:
 
 featured: true
 
+image:
+  caption: 'Presenting at ManuSec USA 2026, Chicago'
+  focal_point: Center
+
 links:
   - icon: calendar
     name: Event
