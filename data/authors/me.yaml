@@ -33,8 +33,9 @@ links:
     url: https://orcid.org/0009-0009-6827-0991
 
 interests:
-  - Zero Trust Networking
-  - Microsegmentation
-  - OT and ICS Security
+  - Zero Trust
   - SD-WAN
-  - Security for AI Agents
+  - Microsegmentation
+  - Enterprise and Datacenter Networking
+  - OT and ICS Security
+  - IaaS

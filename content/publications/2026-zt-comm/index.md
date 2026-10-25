@@ -21,7 +21,4 @@ tags:
 
 featured: true
 
-links:
-- type: code
-  url: https://github.com/amaneja21/ztcomm-agent-security-eval
 ---
